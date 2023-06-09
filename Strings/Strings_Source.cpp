@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <Windows.h>
 using namespace std;
 using std::cout;
@@ -35,7 +35,7 @@ void main()
 	cout << "The function called \"to_upper\" is done: " << endl;
 	to_upper(str);
 	cout << str << endl << endl;
-	//cout << " Õîðîøî     æèâåò    íà    ñâåòå Âèííè     Ïóõ";
+	//cout << " Ð¥Ð¾Ñ€Ð¾ÑˆÐ¾     Ð¶Ð¸Ð²ÐµÑ‚    Ð½Ð°    ÑÐ²ÐµÑ‚Ðµ Ð’Ð¸Ð½Ð½Ð¸     ÐŸÑƒÑ…";
 	//shrink(str);
 	cout << "Enter the word to know if this word is polindrom : "; cin >> str;
 	if (is_palindrome(str) == true) { cout << "the word " << str << " is a polindrome." << endl; }
@@ -77,15 +77,13 @@ void to_upper(char str[])
 		}
 	 else str[i] -= 'a' - 'A';
 	}
-
 }
-void shrink(char str[]) // íå ïîëó÷èëîñü!
+void shrink(char str[]) // Ð½Ðµ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ð»Ð¾ÑÑŒ!
 {
 	for (int i = 0; i < str[i]; i++)
 	{
 
 	}
-		
 }
 int is_palindrome(char str[])
 {
